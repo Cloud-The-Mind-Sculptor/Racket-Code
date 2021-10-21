@@ -1,0 +1,6 @@
+(define (binary-necklace lo01) 
+    (local [(define (bead_chooser VAR) (if (= 0  VAR) (circle 10 "solid" "DarkBlue") (circle 7 "solid" "Gold")))
+            (define necklace_pattern (map bead_chooser lo01))
+            (define cheap_trick (triangle 0 "solid" "blue"))]   ; (bead_chooser (first lo01))
+      (foldr beside cheap_trick necklace_pattern)
+      ))
