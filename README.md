@@ -1,2 +1,4 @@
 # Racket-Code
-Code for my Intro To Comp Sci Class
+## Code for my Intro To Comp Sci Class
+
+## Table of Contents
